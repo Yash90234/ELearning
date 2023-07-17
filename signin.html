@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <fieldset >
+    <div class="header">
+      <a href="#default" class="n1"><h1 class="p1"> Python for Everybody</h1></a>
+      <div class="header-right">
+        <img src="pythonlogo.png" alt="">
+      </div>
+    </div>
+  </fieldset>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learn.html">Learn Python</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="material.html">Materials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signin.html">Signin</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " href="bootstrap.html" >About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="for1">
+    <form action="">
+
+        <p>Name: <input type="text" value="" id="nam1" required></p>
+        <p>Email id: <input type="email" required></p>
+        <p>Password: <input type="password" id="mn1" required></p>
+        <fieldset id="r1">
+            <legend>are you</legend>
+        <p>
+            
+            student <input type="radio" name="ge" id="student" required>
+            teacher <input type="radio" name="ge" id="teacher" required>
+            
+        </p>
+        </fieldset>
+
+        <button class="s1" type="submit"  onclick="vname()"> SUBMIT</button>
+        <button class="s1" type="reset" value="reset"> RESET</button>
+ 
+
+
+    </form>
+    <script>
+      function vname() 
+      {
+          var q1=Document.getElementById("mn1").value;
+          var q1=Document.getElementById("nam1").value;
+          var q1=Document.getElementById("mn1").value;
+          
+          if( q1.length!=10 )
+          {
+              alert("enter number input with length of 10.")
+              return false;
+          }
+          if( q2.length==10 )
+          {
+              alert("enter name.")
+              return false;
+          }
+
+          return (true);
+      }
+  </script>
+
+  </div>
+  <footer id="foo1">copyright by @yup 2022-2025</footer>
+</body>
+</html>
